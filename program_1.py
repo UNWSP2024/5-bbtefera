@@ -8,7 +8,14 @@
 def kilometer_conversion(kilometers):    
     miles = 0.0
     ######################
-    # WRITE YOUR CODE HERE
+
+def convert_km_to_miles(km):
+    return km * 0.6214
+
+distance_km = float(input("Enter distance in kilometers: "))
+distance_miles = convert_km_to_miles(distance_km)
+print(f"{distance_km} kilometers is equal to {distance_miles:.2f} miles.")
+
     ######################    
 
 
